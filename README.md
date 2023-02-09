@@ -23,21 +23,25 @@
 
 - [Requirements](#requirements)
 
-- [About Reservation System](#software)
+- [Requirements Specification Phase](#software)
+     - [Use Case Model](#logging-service)
+       - [Use case Diagrams](#Usecase-Diagrams)
+       - [Use case Descriptions](#Usecase-Diagrams)
+       
+     - [Problem Domain Model](#logging-service)
+       - [Class Diagram](#logging-service)
 
-- [Usecase Diagrams](#Usecase-Diagrams)
+     - [Interface Model](#logging-service)
+       - [User Interface](#development)
 
-- [Class Diagram](#logging-service)
-
-- [User Interface](#development)
-
-- [Interaction Diagrams](#development)
-
-- [State Chart Diagrams](#development)
-
-- [Activity Diagrams](#development)
-
-- [Deployment Diagram](#development)
+- [Analysis Phase](#software)
+     - [Behavior Model](#logging-service)
+       - [Interaction Diagrams](#development)
+       - [State Chart Diagrams](#development)
+       - [Activity Diagrams](#development)
+       
+- [Design Phase](#software)
+  - [Deployment Diagram](#development)
 
   
 
@@ -204,7 +208,7 @@ consisting of:
 #### Deployment Diagram
 - Shows the actual HW configuration consisting of
    - nodes (processors (default), I/O, ...) 
-   - SW-components  
+   -  SW-components  
    - processes  
    -  objects and of the communication channels between nodes
 
