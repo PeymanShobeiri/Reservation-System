@@ -59,11 +59,11 @@ Note that the final PDF is available and you can see the project without install
 
   
 
-## About Reservation System[![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#software)
+## Requirements Specification Phase[![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#software)
 
 <img width="1230" alt="fig1" src="https://user-images.githubusercontent.com/87521998/217460349-8895d69a-2ee3-4272-ad5f-6c7f66aa9828.png">
 
-
+### 1) Use Case Model
 
 #### Use case Diagrams: 
 - Functional decomposition of the system into use cases and actors interacting with them (use cases represent the requirements of the customers)
@@ -115,7 +115,7 @@ Each use case description contains the following :
   -  All calendars of participants without authorization problems are updated, where proper authorization exists.
 
 
-### Problem Domain Modeling
+### 2) Problem Domain Model
 > Result of problem domain modeling is class diagram
 
 #### Class Diagram
@@ -136,6 +136,8 @@ class diagram, visualizing the static structure of the system under development 
   - '-' : private  
   - '#': protected
 
+### 3) Interface Model
+
 #### User Interface
 - Specification of the user interface for each use case / actor
   - not explicitly supported by UML
@@ -143,7 +145,8 @@ class diagram, visualizing the static structure of the system under development 
 -  Specification of the internal interfaces  
    -  supported by UML in terms of interfaces
   
-### Analysis Phase
+## Analysis Phase![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)
+
 * Models of the Analysis Phase
 
 <img width="1192" alt="fig3" src="https://user-images.githubusercontent.com/87521998/217464538-6d46693b-9db9-4829-8a02-f8f9ed488617.png">
@@ -154,7 +157,7 @@ class diagram, visualizing the static structure of the system under development 
 <img width="1219" alt="fig4" src="https://user-images.githubusercontent.com/87521998/217464663-470e6c51-bb56-4ce5-8e24-6587545b7f40.png">
 
 
-  
+### 1) Behavior Model
 
 #### Interaction Diagrams (Sequence and Collaboration Diagram)
  Both specify the same information, However, each emphasizes different aspects.
@@ -197,10 +200,10 @@ consisting of:
   - no events - as soon as execution of the predecessor is finished, execution of the successor is started
    - guards and (send-) actions are allowed
 
+## Design Phase![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)
 #### Deployment Diagram
 - Shows the actual HW configuration consisting of
-   - nodes (processors (default), I/O, ...) 
-   -  SW-components  
+   - nodes (processors (default), I/O, ...)  SW-components  
    - processes  
    -  objects and of the communication channels between nodes
 
