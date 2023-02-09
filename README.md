@@ -198,7 +198,12 @@ consisting of:
    - guards and (send-) actions are allowed
 
 #### Deployment Diagram
+- Shows the actual HW configuration consisting of
+   - nodes (processors (default), I/O, ...)  SW-components  
+   - processes  
+   -  objects and of the communication channels between nodes
 
+- Properties of nodes can be denoted by means of tagged values and/or stereotypes (e.g., capacity, reliability)
   
 <br/>1 `star` == 1 `thank you`. By starring the project you thank the contributors for work.
 <div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
