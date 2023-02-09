@@ -203,7 +203,8 @@ consisting of:
 ## Design Phase![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)
 #### Deployment Diagram
 - Shows the actual HW configuration consisting of
-   - nodes (processors (default), I/O, ...)  SW-components  
+   - nodes (processors (default), I/O, ...) 
+   - SW-components  
    - processes  
    -  objects and of the communication channels between nodes
 
