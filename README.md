@@ -136,6 +136,13 @@ class diagram, visualizing the static structure of the system under development 
   - '-' : private  
   - '#': protected
 
+#### User Interface
+- Specification of the user interface for each use case / actor
+  - not explicitly supported by UML
+
+-  Specification of the internal interfaces  
+   -  supported by UML in terms of interfaces
+  
 ### Analysis Phase
 * Models of the Analysis Phase
 
@@ -146,28 +153,56 @@ class diagram, visualizing the static structure of the system under development 
 
 <img width="1219" alt="fig4" src="https://user-images.githubusercontent.com/87521998/217464663-470e6c51-bb56-4ce5-8e24-6587545b7f40.png">
 
-#### User Interface
 
   
 
-#### Interaction Diagrams
+#### Interaction Diagrams (Sequence and Collaboration Diagram)
+ Both specify the same information, However, each emphasizes different aspects.
+
+- sequence diagram is “temporally” - oriented
+   -  shows graphically the order of messages
+    - does not show how to get the receiver object  
+    
+ - collaboration diagram is “spatially” - oriented
+    - shows the static and dynamic relationships between objects - the context aspect
+     - the order of messages is expressed by means of decimal classification only
+     -  time is no dimension on its own
 
   
 
 #### State Chart Diagrams
-
+- describes  
+  - the life cycle of the instances of a class
+  -  the execution of an operation on an instance of a class
+  
+- models
+   -  the possible states of the instances of a class
+   -  the possible transitions from one state to another one
+   - the events firing transitions
+   -  the operations (actions and activities) which are executed within states or during a transition
   
 
 #### Activity Diagrams
-
+- Describes a process
+consisting of:
+   -  actions and activities  
+   -  control flow  
+   -  input and output objects, object flow 
+   - responsible objects
   
+  
+- Control flow
+  - order of actions / activities
+  -  represented by transition arrows
+  - no events - as soon as execution of the predecessor is finished, execution of the successor is started
+   - guards and (send-) actions are allowed
 
 #### Deployment Diagram
 
   
-
+<br/>1 `star` == 1 `thank you`. By starring the project you thank the contributors for work.
 <div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
 
   
-<br/>1 `star` == 1 `thank you`. By starring the project you thank the contributors for work.
+
 <!-- markdownlint-enable -->
