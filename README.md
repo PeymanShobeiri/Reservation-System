@@ -41,7 +41,7 @@
        - [Activity Diagrams](#development)
        
 - <a href="#design"> Design Phase </a> 
-  - [Deployment Diagram](#development)
+  - <a href="#development">Deployment Diagram </a>
 
   
 
@@ -205,7 +205,8 @@ consisting of:
    - guards and (send-) actions are allowed
 
 <h4 id='design'> Design Phase </h4> 
-#### Deployment Diagram
+<h5 id="development">Deployment Diagram </h5>
+
 - Shows the actual HW configuration consisting of
    - nodes (processors (default), I/O, ...) 
    -  SW-components  
