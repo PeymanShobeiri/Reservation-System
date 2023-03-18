@@ -40,7 +40,7 @@
        - [State Chart Diagrams](#development)
        - [Activity Diagrams](#development)
        
-- [Design Phase](#software)
+- <a href="#design"> Design Phase </a> 
   - [Deployment Diagram](#development)
 
   
@@ -204,7 +204,7 @@ consisting of:
   - no events - as soon as execution of the predecessor is finished, execution of the successor is started
    - guards and (send-) actions are allowed
 
-## Design Phase![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)
+<h4 id='design'> Design Phase </h4> 
 #### Deployment Diagram
 - Shows the actual HW configuration consisting of
    - nodes (processors (default), I/O, ...) 
