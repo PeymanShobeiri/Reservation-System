@@ -34,7 +34,7 @@
      - [Interface Model](#logging-service)
        - [User Interface](#development)
 
-- [Analysis Phase](#software)
+- <a href="#analysis"> Analysis Phase </a>  
      - [Behavior Model](#logging-service)
        - [Interaction Diagrams](#development)
        - [State Chart Diagrams](#development)
@@ -149,7 +149,7 @@ class diagram, visualizing the static structure of the system under development 
 -  Specification of the internal interfaces  
    -  supported by UML in terms of interfaces
   
-## Analysis Phase![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)
+<h2 id='analysis'>Analysis Phase </h2>
 
 * Models of the Analysis Phase
 
